@@ -9,6 +9,7 @@
 import turtle
 
 wn = turtle.Screen()
+wn.bgcolor('black')
 bryar = turtle.Turtle()
 megan = turtle.Turtle()
 gwendolin = turtle.Turtle()

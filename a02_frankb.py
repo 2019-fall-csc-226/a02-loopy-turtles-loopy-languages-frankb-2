@@ -36,7 +36,7 @@ def repeat_shape(polygon):
     bryar.setheading(0)
     megan.setheading(120)
     gwen.setheading(240)
-    for repetitions in range(200//polygon):
+    for repetitions in range(30):
         draw_shape(bryar, size, polygon, move)
         draw_shape(megan, size, polygon, move)
         draw_shape(gwen, size, polygon, move)

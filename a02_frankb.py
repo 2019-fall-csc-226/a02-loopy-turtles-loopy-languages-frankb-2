@@ -9,11 +9,11 @@
 import turtle
 
 
-def draw_shape(name, head, polygon, size):
-    name.setheading(head)
-    for side in range(polygon):
-        name.fd(size)
-        name.rt(360/polygon)
+def draw_shape(t, sz, n_side):
+
+    for side in range(n_side):
+        t.fd(sz)
+        t.rt(360/n_side)
 
 
 

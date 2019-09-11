@@ -15,6 +15,12 @@ def draw_shape(t, sz, n_side):
         t.fd(sz)
         t.rt(360/n_side)
 
+def repeat_shape(polygon):
+
+    size = 10
+    for repetitions in range(10):
+        draw_shape(turtle, size, polygon)
+        size
 
 
 
@@ -30,6 +36,6 @@ wn = turtle.Screen()
 wn.setup(width=1366, height=768, startx=0, starty=0)
 wn.bgcolor('black')
 
-
+repeat_shape(num_sides)
 
 wn.exitonclick()
